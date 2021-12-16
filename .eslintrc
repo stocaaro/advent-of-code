@@ -12,7 +12,11 @@
     "prettier"
   ],
   "rules": {
+
+    "max-len": ["error", { "code": 100 }],
+    "prettier/prettier": ["error", { "printWidth": 100 }],
     "no-console": 1,       // Means warning
-    "prettier/prettier": 2 // Means error
+    "prettier/prettier": 2, // Means error
+
   }
 }
