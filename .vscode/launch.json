@@ -5,12 +5,23 @@
     "version": "0.2.0",
     "configurations": [
 		{
-			"name": "source",
+			"name": "a",
 			"type": "node",
 			"request": "launch",
 			"runtimeExecutable": "node",
 			"runtimeArgs": ["--nolazy", "-r", "ts-node/register/transpile-only"],
-			"args": ["src/2021/17/index.ts"],
+			"args": ["src/2022/02/a.ts"],
+			"cwd": "${workspaceRoot}",
+			"internalConsoleOptions": "openOnSessionStart",
+			"skipFiles": ["<node_internals>/**", "node_modules/**"]
+		},
+		{
+			"name": "b",
+			"type": "node",
+			"request": "launch",
+			"runtimeExecutable": "node",
+			"runtimeArgs": ["--nolazy", "-r", "ts-node/register/transpile-only"],
+			"args": ["src/2022/02/b.ts"],
 			"cwd": "${workspaceRoot}",
 			"internalConsoleOptions": "openOnSessionStart",
 			"skipFiles": ["<node_internals>/**", "node_modules/**"]
