@@ -10,7 +10,7 @@
 			"request": "launch",
 			"runtimeExecutable": "node",
 			"runtimeArgs": ["--nolazy", "-r", "ts-node/register/transpile-only"],
-			"args": ["src/2022/06/a.ts"],
+			"args": ["src/2022/08/a.ts"],
 			"cwd": "${workspaceRoot}",
 			"internalConsoleOptions": "openOnSessionStart",
 			"skipFiles": ["<node_internals>/**", "node_modules/**"]
@@ -21,7 +21,7 @@
 			"request": "launch",
 			"runtimeExecutable": "node",
 			"runtimeArgs": ["--nolazy", "-r", "ts-node/register/transpile-only"],
-			"args": ["src/2022/06/b.ts"],
+			"args": ["src/2022/08/b.ts"],
 			"cwd": "${workspaceRoot}",
 			"internalConsoleOptions": "openOnSessionStart",
 			"skipFiles": ["<node_internals>/**", "node_modules/**"]
